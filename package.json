@@ -47,5 +47,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "resolutions": {
+    "@types/react": "^16.14.3"
   }
 }

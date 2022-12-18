@@ -6,7 +6,7 @@ const MoralisLogo = () => {
 
   return (
     <Image
-      src={colorMode === 'dark' ? '/platter-dark.png' : '/platter-dark.png'}
+      src={colorMode === 'dark' ? '/Logo.png' : '/Logo.png'}
       height={45}
       width={150}
       alt="Platter"
