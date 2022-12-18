@@ -1,4 +1,4 @@
-import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
+import { ButtonGroup, Container, IconButton, Stack} from '@chakra-ui/react'
 import * as React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
@@ -7,7 +7,7 @@ const Footer = () => {
   return(
   <Container as="footer" role="contentinfo" py={{ base: '12', md: '16' }}>
     <Stack spacing={{ base: '4', md: '5' }}>
-      <Stack justify="space-between" direction="row" align="center">
+      <Stack justify="space-between" direction="row" align="right">
         <ButtonGroup variant="ghost">
           <IconButton
             as="a"

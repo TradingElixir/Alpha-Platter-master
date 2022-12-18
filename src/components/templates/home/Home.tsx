@@ -12,7 +12,7 @@ const Home = () => {
         <Stack as={Box} textAlign={'center'} spacing={{ base: 8, md: 14 }} py={{ base: 20, md: 26 }}>
           <Heading fontWeight={600} fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }} lineHeight={'110%'}>
             Explore new Web3.0 <br />
-            <Text as={'span'} color={'green.400'}>
+            <Text as={'span'} color={'blue.400'}>
               with Platter Inc.
             </Text>
           </Heading>
@@ -21,18 +21,18 @@ const Home = () => {
           </Text>
           <Stack direction={'column'} spacing={3} align={'center'} alignSelf={'center'} position={'relative'}>
             <Button
-              colorScheme={'green'}
-              bg={'green.400'}
+              colorScheme={'blue'}
+              bg={'blue.400'}
               rounded={'full'}
               px={6}
               _hover={{
-                bg: 'green.500',
+                bg: 'blue.500',
               }}
             >
               Start Exploring
             </Button>
-            <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-              Get in Touch 
+            <Button variant={'link'} colorScheme={'dark blue'} size={'sm'}>
+              Get in Touch with team
             </Button>
             <Box>
               <Icon
@@ -51,7 +51,7 @@ const Home = () => {
                 top={'-15px'}
                 transform={'rotate(10deg)'}
               >
-                Click to become Alpha
+                Click to become Alpha member
               </Text>
             </Box>
           </Stack>

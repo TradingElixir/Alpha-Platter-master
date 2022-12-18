@@ -1,8 +1,8 @@
 {
-  "name": "ethereum-boilerplate",
+  "name": "Alpha Platter",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://eth-boilerplate.vercel.app/",
+  "homepage": "https://Alpha.platter.fi/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
