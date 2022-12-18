@@ -5041,7 +5041,7 @@ next-auth@^4.18.6, next-auth@>=4.16.4:
     preact-render-to-string "^5.1.19"
     uuid "^8.3.2"
 
-"next@^12.2.5 || ^13", next@^13.0.6, next@>=12.2.5:
+"next@^12.2.5 || ^13", next@^13.0.7, next@>=12.2.5:
   version "13.0.7"
   resolved "https://registry.npmjs.org/next/-/next-13.0.7.tgz"
   integrity sha512-YfTifqX9vfHm+rSU/H/3xvzOHDkYuMuh4wsvTjiqj9h7qHEF7KHB66X4qrH96Po+ohdid4JY8YVGPziDwdXL0A==
