@@ -1,6 +1,6 @@
-import { ButtonGroup, Container, IconButton, Stack} from '@chakra-ui/react'
+import { ButtonGroup, Container, IconButton, Stack, Text} from '@chakra-ui/react'
 import * as React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -11,18 +11,27 @@ const Footer = () => {
         <ButtonGroup variant="ghost">
           <IconButton
             as="a"
-            href="#"
+            href="https://www.linkedin.com/company/platterfinance/"
             aria-label="LinkedIn"
-            icon={<FaLinkedin fontSize="1.25rem" />}
+            icon={<FaLinkedin fontSize="1.5rem" />}
           />
-          <IconButton as="a" href="#" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
+          <IconButton 
+            as="a" 
+            href="https://instagram.com/platterfinance?igshid=YTY2NzY3YTc=" 
+            aria-label="Instagram" 
+            icon={<FaInstagram fontSize="1.5rem" />}
+           />
           <IconButton
             as="a"
-            href="#"
+            href="https://twitter.com/PlatterFinance"
             aria-label="Twitter"
-            icon={<FaTwitter fontSize="1.25rem" />}
+            icon={<FaTwitter fontSize="1.5rem" />}
           />
         </ButtonGroup>
+        <Text fontSize="large" color="subtle">
+        &copy; {new Date().getFullYear()} Platter Finance, Inc.
+        All rights reserved.
+        </Text>
       </Stack>
      
     </Stack>
