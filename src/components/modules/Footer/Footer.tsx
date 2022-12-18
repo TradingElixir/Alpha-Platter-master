@@ -1,13 +1,13 @@
 import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
 import * as React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { image } from '../../public/platter-dark.png'
+import { Logo } from "*.png"
 
 export const App = () => (
   <Container as="footer" role="contentinfo" py={{ base: '12', md: '16' }}>
     <Stack spacing={{ base: '4', md: '5' }}>
       <Stack justify="space-between" direction="row" align="center">
-        <img src={image}/>
+        <img src={Logo}/>
         <ButtonGroup variant="ghost">
           <IconButton
             as="a"
