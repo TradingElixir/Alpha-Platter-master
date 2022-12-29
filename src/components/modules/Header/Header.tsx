@@ -9,8 +9,9 @@ const Header = () => {
         <Flex align="center" justify="space-between">
           <MoralisLogo />
           <NavBar />
-          <HStack gap={'10px'}>
+          <HStack gap={'3px'}>
             <ConnectButton />
+            <w3m-network-switch></w3m-network-switch>
             <ColorModeButton />
           </HStack>
         </Flex>
